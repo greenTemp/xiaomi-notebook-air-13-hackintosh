@@ -43,19 +43,21 @@ EFI文件由[这个项目](https://github.com/johnnynunez/Xiaomi-Mi-Air)修改�
 
     建议使用[OpenCore官方的方法](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#creating-the-usb)制作安装u盘
 
+    注意：OpenCore官方下载镜像的命令有误，需要使用*python*命令，而不能用*python3*
+
     把下载好的镜像放入u盘后，需要[下载](https://github.com/greenTemp/xiaomi-notebook-air-13-hackintosh/archive/refs/heads/main.zip)本项目里的EFI文件，放入u盘根目录
 
-2. 更新config.plist文件里的设备信息
+3. 更新config.plist文件里的设备信息
 
     可以参考[司波图的视频](https://www.youtube.com/watch?v=EN0pD_6pf8o&t=677s)进行操作
 
-3. 使用制作好的系统安装u盘安装系统
+4. 使用制作好的系统安装u盘安装系统
 
     安装系统之前需要首先设置bios，具体方式可以参考[国光的黑苹果教程](https://apple.sqlsec.com/5-%E5%AE%9E%E6%88%98%E6%BC%94%E7%A4%BA/5-2.html#2-bios-%E8%AE%BE%E7%BD%AE)
 
     然后按照[司波图的视频](https://youtu.be/EN0pD_6pf8o?t=1009)安装系统
 
-4. 把引导文件拷贝到硬盘上，以实现脱离u盘引导系统
+5. 把引导文件拷贝到硬盘上，以实现脱离u盘引导系统
 
     先打开`终端`，然后输入以下命令挂载引导分区
 
