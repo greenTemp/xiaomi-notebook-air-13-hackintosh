@@ -43,7 +43,7 @@ EFI文件由[这个项目](https://github.com/johnnynunez/Xiaomi-Mi-Air)修改�
 
     建议使用[OpenCore官方的方法](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#creating-the-usb)制作安装u盘
 
-    注意：OpenCore官方下载镜像的命令有误，需要使用*python*命令，而不能用*python3*
+    **注意：OpenCore官方下载镜像的命令有误，需要使用`python`命令，而不能用`python3`命令**
 
     把下载好的镜像放入u盘后，需要[下载](https://github.com/greenTemp/xiaomi-notebook-air-13-hackintosh/archive/refs/heads/main.zip)本项目里的EFI文件，放入u盘根目录
 
